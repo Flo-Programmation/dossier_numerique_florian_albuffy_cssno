@@ -20,10 +20,15 @@ Les animations :
 
 Balises utilisé:
 - header
+- h1 
+- h2
+- h3
+- p 
+- span
+- br
 - img 
 - section 
 - div
-- aside
 - nav
 - ul 
 - li
@@ -32,9 +37,6 @@ Balises utilisé:
 - details 
 - summary 
 - form
-- h1 
-- h2
-- h3
-- p 
 - input 
 - label
+- footer
