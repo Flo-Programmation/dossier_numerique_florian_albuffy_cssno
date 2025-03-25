@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="page-contact-styles.css">
+    <title>Formulaire de contact</title>
+</head>
+<body>
+    <section>
+            <form action="post">
+                <h2>Formulaire de contact</h2>
+                    <label for="nom">Nom :</label>
+                    <input type="text" placeholder="Entrer votre nom" name="nom">
+<br>
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" placeholder="Entrer votre prénom" name="prenom">
+<br>
+                    <label for="email">Adresse Email :</label>
+                    <input type="email" placeholder="Entrer votre adresse email" name="email" required>
+<br>
+                    <label for="message">Message à Envoyer :</label>
+                    <textarea name="message" placeholder="Entrer votre message" required></textarea>
+                    <div class="bouton">
+                        <button type="submit">Envoyer le formulaire</button>
+                    </div>
+            </form>
+    </section>
+</body>
+</html>
