@@ -1,22 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 body{
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #EDEDED;
     color: #000000;
 }
-
 header{
     width: 100%;
+    position: fixed;
+    z-index: 99;
+    background-color: #edededee
 }
-
 ul{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+}
+li{
+    margin-right: 25px;
+    list-style: none;
+}
+li:hover a{
+    cursor: pointer;
+    background-color: #ffa43c;
+    border-radius: 5px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
 }
 
-li{
-    padding-right: 25px;
-    list-style: none;
+/* Début code site */
+/* Section "Accueil" */
+hr{
+    color: black;
+    width: 50%;
+}
+h1, h2{
+    margin: 0;
+}
+span{
+    color: #ffa43c;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+span:hover{
+    cursor: pointer;
+}
+.accueil{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.accueil h1{
+    font-size: 70px;
+}
+.accueil h2{
+    font-size: 40px;
+}
+.scroll{
+    display: flex;
+    justify-content: center;
+}
+.scroll a{
+    color: hsla(0, 0%, 0%, 0.5);
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.scroll span{
+    color: hsla(0, 0%, 0%, 0.5);
+}
+
+/* Debut code pour section introduction */
+.introduction{
+    height: 50vh;
+}
+
+/* Debut code pour section competences */
+.competences{
+    height: 100vh;
 }
