@@ -1,0 +1,40 @@
+Création d'un portfolio 
+Date de commencement : 25/03/2025
+
+Objectif : 
+- Créer un portfolio simple qui permettra de stocker les informations des projets réalisés et des compétences acquises.
+- Améliorer les compétences en programmation. 
+
+Le contenus : 
+- Bar de navigation fixe en haut de page 
+- Section d'accueil avec une image de fond et un texte d'introduction
+- Section de formation réalisés
+- Section de projets avec une liste des projets réalisés
+- Section de compétences avec une liste des compétences acquises
+- Section de contact avec un formulaire de contact et un lien vers mon profil LinkedIn.
+
+Les animations : 
+- Changer la couleur du fond d'un bouton ou d'un contenus dans la page lors du survole 
+- Changer la couleur du texte lors du survole
+- Afficher un message de confirmation lors de la soumission du formulaire de contact.
+
+Balises utilisé:
+- header
+- img 
+- section 
+- div
+- aside
+- nav
+- ul 
+- li
+- a
+- button 
+- details 
+- summary 
+- form
+- h1 
+- h2
+- h3
+- p 
+- input 
+- label
