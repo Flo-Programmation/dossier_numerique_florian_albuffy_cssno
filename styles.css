@@ -66,6 +66,9 @@ span:hover{
 .accueil h2{
     font-size: 40px;
 }
+.accueil p{
+    text-align: center;
+}
 .scroll{
     display: flex;
     justify-content: center;
@@ -447,4 +450,39 @@ details:hover{
 }
 .projet h2{
     text-align: center;
+}
+
+
+.naviguate-top{
+    box-shadow: 1px 12px 25px rgba(0, 0, 0, 0.11);
+    position: fixed;
+    z-index: 99;
+    bottom: 50%;
+    right: 50px;
+    border-radius: 50%;
+    background-color: white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.naviguate-top img{
+    border-radius: 50%;
+    width: 30px;
+    padding: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.naviguate-top:hover{
+    cursor: pointer;
+    background-color: #ffa43c;
+}
+.naviguate-top:hover img{
+    filter: invert();
+    -webkit-filter: invert();
+}
+#top{
+    padding: 0;
 }
