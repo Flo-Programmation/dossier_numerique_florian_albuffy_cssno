@@ -89,13 +89,22 @@ span:hover{
 /* Debut code pour section introduction */
 .introduction{
     position: relative;
-    height: 50vh;
     background: linear-gradient(#ededed, whitesmoke);
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.introduction img{
+    padding: 25px 50px 0 0;
+    width: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
 fieldset{
+    display: flex;
     width: 50%;
     box-shadow: 1px 12px 25px rgb(0 0 0 / 10%);
 }
